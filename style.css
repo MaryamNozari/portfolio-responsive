@@ -86,3 +86,24 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+.btn-branding-outline {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+@media (max-width: 900px) {
+  img {
+    display: none;
+  }
+  .project-description {
+    text-align: center;
+    padding: 0;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+}
